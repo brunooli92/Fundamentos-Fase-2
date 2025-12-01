@@ -1,0 +1,17 @@
+/* Ajustes personalizados para complementar o Bootstrap */
+
+/* Garante que as imagens do carrossel tenham altura fixa e preencham o espaço */
+.carousel-img-fit {
+    height: 400px;
+    object-fit: cover; /* Corta a imagem se necessário para manter a proporção */
+}
+
+/* Espaçamento extra no rodapé */
+footer {
+    border-top: 4px solid #0d6efd; /* Linha azul do Bootstrap */
+}
+
+/* Marcação de preço */
+.text-primary {
+    font-size: 1.2rem;
+}
